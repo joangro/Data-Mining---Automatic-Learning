@@ -1,0 +1,182 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     TrainSet-weka.filters.unsupervised.attribute.Remove-V-R1,9,66,4,42,64-65,60,46,7,39,68-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    60
+Attributes:   11
+              EDm
+              RGm
+              El
+              SFm
+              RTm
+              RTd
+              RSm
+              M1m
+              Asm
+              Km
+              class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: aggressive, happy
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.0278 * (normalized) EDm
+ +       0.9615 * (normalized) RGm
+ +       0.2166 * (normalized) El
+ +      -0.417  * (normalized) SFm
+ +       1.1978 * (normalized) RTm
+ +       1.1858 * (normalized) RTd
+ +       1.0412 * (normalized) RSm
+ +       0.8906 * (normalized) M1m
+ +       0.4324 * (normalized) Asm
+ +      -0.2725 * (normalized) Km
+ -       0.9131
+
+Number of kernel evaluations: 189 (77.58% cached)
+
+Classifier for classes: aggressive, relaxed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.132  * (normalized) EDm
+ +      -0.0599 * (normalized) RGm
+ +      -0.3563 * (normalized) El
+ +      -1.1818 * (normalized) SFm
+ +       0.0394 * (normalized) RTm
+ +       0.1573 * (normalized) RTd
+ +       0.7815 * (normalized) RSm
+ +       1.5365 * (normalized) M1m
+ +      -0.477  * (normalized) Asm
+ +      -0.8316 * (normalized) Km
+ +       0.5707
+
+Number of kernel evaluations: 161 (74.566% cached)
+
+Classifier for classes: aggressive, sad
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.436  * (normalized) EDm
+ +       0.6458 * (normalized) RGm
+ +      -0.6516 * (normalized) El
+ +      -0.5994 * (normalized) SFm
+ +       0.7817 * (normalized) RTm
+ +       0.7374 * (normalized) RTd
+ +       0.7204 * (normalized) RSm
+ +       0.4987 * (normalized) M1m
+ +      -0.5546 * (normalized) Asm
+ +      -0.2616 * (normalized) Km
+ -       0.8383
+
+Number of kernel evaluations: 83 (78.385% cached)
+
+Classifier for classes: happy, relaxed
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.6479 * (normalized) EDm
+ +      -0.0782 * (normalized) RGm
+ +      -0.6885 * (normalized) El
+ +      -1.6988 * (normalized) SFm
+ +      -0.0908 * (normalized) RTm
+ +       0.0863 * (normalized) RTd
+ +       0.8847 * (normalized) RSm
+ +       0.9799 * (normalized) M1m
+ +      -1.0546 * (normalized) Asm
+ +      -1.625  * (normalized) Km
+ +       1.1803
+
+Number of kernel evaluations: 140 (65.517% cached)
+
+Classifier for classes: happy, sad
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.7255 * (normalized) EDm
+ +       1.072  * (normalized) RGm
+ +      -0.8846 * (normalized) El
+ +      -0.8621 * (normalized) SFm
+ +       1.107  * (normalized) RTm
+ +       1.0563 * (normalized) RTd
+ +       1.0884 * (normalized) RSm
+ +       0.4837 * (normalized) M1m
+ +      -0.8212 * (normalized) Asm
+ +      -0.5532 * (normalized) Km
+ -       1.612 
+
+Number of kernel evaluations: 98 (79.237% cached)
+
+Classifier for classes: relaxed, sad
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.6833 * (normalized) EDm
+ +       0.8968 * (normalized) RGm
+ +      -0.9584 * (normalized) El
+ +      -0.18   * (normalized) SFm
+ +       0.478  * (normalized) RTm
+ +       0.4434 * (normalized) RTd
+ +       0.8393 * (normalized) RSm
+ +      -0.0293 * (normalized) M1m
+ +      -0.8409 * (normalized) Asm
+ +       0.6136 * (normalized) Km
+ -       1.0801
+
+Number of kernel evaluations: 159 (69.186% cached)
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          45               75      %
+Incorrectly Classified Instances        15               25      %
+Kappa statistic                          0.6667
+Mean absolute error                      0.2722
+Root mean squared error                  0.3456
+Relative absolute error                 72.5926 %
+Root relative squared error             79.8146 %
+Total Number of Instances               60     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,733    0,000    1,000      0,733    0,846      0,821    0,943     0,861     aggressive
+                 0,867    0,089    0,765      0,867    0,813      0,747    0,929     0,723     happy
+                 0,400    0,044    0,750      0,400    0,522      0,453    0,858     0,573     relaxed
+                 1,000    0,200    0,625      1,000    0,769      0,707    0,900     0,625     sad
+Weighted Avg.    0,750    0,083    0,785      0,750    0,737      0,682    0,907     0,696     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 11  4  0  0 |  a = aggressive
+  0 13  2  0 |  b = happy
+  0  0  6  9 |  c = relaxed
+  0  0  0 15 |  d = sad
+

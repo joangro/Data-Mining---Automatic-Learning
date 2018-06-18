@@ -1,0 +1,71 @@
+@relation 'TrainSet-weka.filters.unsupervised.attribute.Remove-V-R1,9,66,4,42,64-65,60,46,7,39-40,6,2,28-29,43,67,62,36,61,38,8,34,17,12,15,24,37,44,18,23,21,11,31,16,19,10,14,13,63,3,5,59,58,20,49,22,41,53,48,52,51,45,50,47,54,35,55,57,26-27,56,33,30,32,25,68-weka.filters.unsupervised.attribute.Remove-V-R1-6,68'
+
+@attribute File_Name {'01-anarchy_in_the_uk.mp3       ','01-angel_of_death.mp3       ','01-back_to_the_primitive.mp3       ','01-born_on_the_cusp.mp3       ','01-cold_cash_and_cold_hearts.mp3       ','01-first_strike_is_deadly.mp3       ','01-one_time.mp3       ','01-optimist_or_pessimist.mp3       ','01-plastic_bomb.mp3       ','01-the_bee_and_the_cracking_egg.mp3       ','01-the_seven_tongues_of_god.mp3       ','01-true_nature.mp3       ','01-what_tomorrow_knows.mp3       ','02-beyond_within.mp3       ','02-bitches.mp3       ','02-every_morning.mp3       ','02-it_s_alright_baby.mp3       ','02-let_s_groove.mp3       ','02-mmmbop.mp3       ','02-my_oh_my.mp3       ','02-new_life.mp3       ','02-she_s_so_high.mp3       ','02-soak_up_the_sun.mp3       ','02-the_rainbow.mp3       ','02-walkie_talkie_man.mp3       ','01-open_the_gate.mp3       ','01-penny_+_me.mp3       ','01-so_long_astoria.mp3       ','01-you_re_the_only_one.mp3       ','02-a.m._180.mp3       ','01-a_way_of_life.mp3       ','01-angel_eyes.mp3       ','01-ballad_for_the_unborn.mp3       ','01-birth_school_dole_angst.mp3       ','01-dawn.mp3       ','01-everyday.mp3       ','01-homesick.mp3       ','01-in_the_bath.mp3       ','01-invitations.mp3       ','01-love_you.mp3       ','01-mississippi_half-step_uptown_too.mp3       ','01-moonshine.mp3       ','01-pink_moon.mp3       ','01-playground_love.mp3       ','01-sayhueque.mp3       ','01-deep_water.mp3       ','01-footlights.mp3       ','01-lightning_risked_it_all.mp3       ','01-old_friends_bookends.mp3       ','01-punk_rock.mp3       ','01-round_here.mp3       ','01-stardust.mp3       ','01-the_long_and_winding_road.mp3       ','01-will_my_soul_ever_rest_in_peace.mp3       ','02-autumn_lightness.mp3       ','02-brand_new_love.mp3       ','02-desert_sunrise.mp3       ','02-every_grain_of_sand.mp3       ','02-it_sure_can_get_cold_in_des_moin.mp3       ','02-on_saturday_afternoons_in_1963.mp3       '}
+@attribute EDm numeric
+@attribute RGm numeric
+@attribute El numeric
+@attribute SFm numeric
+@attribute RTm numeric
+@attribute class {aggressive,happy,relaxed,sad}
+
+@data
+'01-anarchy_in_the_uk.mp3       ',5.243943,43.028042,0.003345,172.473362,41.248632,aggressive
+'01-angel_of_death.mp3       ',7.434451,36.336147,0.005113,212.477016,36.544511,aggressive
+'01-back_to_the_primitive.mp3       ',7.334882,43.087762,0.00447,213.934192,41.719539,aggressive
+'01-born_on_the_cusp.mp3       ',4.825737,52.134777,0.004168,285.776047,43.17858,aggressive
+'01-cold_cash_and_cold_hearts.mp3       ',3.910991,91.929329,0.006795,225.15591,89.99585,aggressive
+'01-first_strike_is_deadly.mp3       ',6.056435,44.973613,0.004031,169.391048,44.035821,aggressive
+'01-one_time.mp3       ',4.937044,76.089458,0.004825,207.128074,66.548772,aggressive
+'01-optimist_or_pessimist.mp3       ',5.898123,38.285625,0.003655,173.886027,36.906376,aggressive
+'01-plastic_bomb.mp3       ',6.780799,63.006797,0.003637,147.895768,64.23846,aggressive
+'01-the_bee_and_the_cracking_egg.mp3       ',6.132708,66.533004,0.002931,208.585788,59.233491,aggressive
+'01-the_seven_tongues_of_god.mp3       ',4.859249,49.077618,0.002474,146.582449,49.980679,aggressive
+'01-true_nature.mp3       ',4.77929,57.876921,0.004211,233.616393,50.468005,aggressive
+'01-what_tomorrow_knows.mp3       ',4.05496,94.858258,0.004,167.566765,86.844234,aggressive
+'02-beyond_within.mp3       ',3.987936,68.628052,0.003943,190.671231,62.003779,aggressive
+'02-bitches.mp3       ',2.309538,86.672781,0.004266,144.412523,62.361742,aggressive
+'02-every_morning.mp3       ',3.315773,93.577339,0.003355,175.041056,81.807311,happy
+'02-it_s_alright_baby.mp3       ',3.786863,97.267901,0.004264,188.74367,93.320428,happy
+'02-let_s_groove.mp3       ',2.907754,90.737099,0.002798,80.306205,69.436228,happy
+'02-mmmbop.mp3       ',4.274354,90.9565,0.004045,161.194275,91.006133,happy
+'02-my_oh_my.mp3       ',3.777336,70.415811,0.005004,182.037109,68.344421,happy
+'02-new_life.mp3       ',4.883721,82.907795,0.007334,187.785938,86.286212,happy
+'02-she_s_so_high.mp3       ',3.709893,107.578386,0.005631,204.229895,100.048496,happy
+'02-soak_up_the_sun.mp3       ',2.220013,76.856337,0.008309,159.658567,67.861911,happy
+'02-the_rainbow.mp3       ',3.857972,76.064116,0.004089,212.107973,65.967305,happy
+'02-walkie_talkie_man.mp3       ',4.712911,92.171162,0.004471,261.994999,92.287024,happy
+'01-open_the_gate.mp3       ',3.677932,93.952347,0.004268,175.030985,81.829536,happy
+'01-penny_+_me.mp3       ',2.866667,97.91139,0.003442,167.91834,84.14438,happy
+'01-so_long_astoria.mp3       ',4.278075,95.279948,0.003831,214.0143,84.425121,happy
+'01-you_re_the_only_one.mp3       ',3.409091,91.983897,0.00508,224.625175,81.479814,happy
+'02-a.m._180.mp3       ',2.906977,67.464943,0.003117,110.493926,68.483968,happy
+'01-a_way_of_life.mp3       ',1.1,102.510153,0.002839,70.756953,94.24535,relaxed
+'01-angel_eyes.mp3       ',1.573485,147.674587,0.001642,42.008048,133.423142,relaxed
+'01-ballad_for_the_unborn.mp3       ',0.331895,161.081678,0.001643,23.891166,135.820926,relaxed
+'01-birth_school_dole_angst.mp3       ',1.977212,135.04349,0.003309,100.098036,109.786456,relaxed
+'01-dawn.mp3       ',2.090939,16.601253,0.00319,91.613342,17.314847,relaxed
+'01-everyday.mp3       ',4.39008,87.946429,0.003021,86.737523,79.445829,relaxed
+'01-homesick.mp3       ',2.190508,127.195828,0.003285,118.693633,121.896239,relaxed
+'01-in_the_bath.mp3       ',3.384718,42.209257,0.002977,85.44354,33.954373,relaxed
+'01-invitations.mp3       ',3.288136,56.93993,0.002894,97.149313,52.632592,relaxed
+'01-love_you.mp3       ',2.787919,114.396262,0.002396,88.373145,104.897454,relaxed
+'01-mississippi_half-step_uptown_too.mp3       ',3.081717,111.778935,0.002632,93.302483,105.62137,relaxed
+'01-moonshine.mp3       ',2.256887,113.648722,0.002933,62.684703,113.634142,relaxed
+'01-pink_moon.mp3       ',2.253148,88.433921,0.002676,94.362046,86.085924,relaxed
+'01-playground_love.mp3       ',2.256887,119.443187,0.003616,100.544043,114.042974,relaxed
+'01-sayhueque.mp3       ',1.36077,75.408754,0.001447,64.670869,59.402697,relaxed
+'01-deep_water.mp3       ',2.783049,132.573614,0.002033,107.989853,118.197619,sad
+'01-footlights.mp3       ',1.192843,105.695269,0.001629,49.796342,91.335173,sad
+'01-lightning_risked_it_all.mp3       ',0.199137,129.100276,0.001417,29.977885,101.929735,sad
+'01-old_friends_bookends.mp3       ',1.268781,147.240408,0.001451,55.589633,136.737957,sad
+'01-punk_rock.mp3       ',2.010724,105.757867,0.001927,92.307486,93.776651,sad
+'01-round_here.mp3       ',1.822399,123.782799,0.002224,82.003389,109.848709,sad
+'01-stardust.mp3       ',1.371696,156.887355,0.002376,40.169502,136.082222,sad
+'01-the_long_and_winding_road.mp3       ',1.526718,138.461448,0.001995,53.465109,116.34425,sad
+'01-will_my_soul_ever_rest_in_peace.mp3       ',2.680965,129.355674,0.002614,122.574707,109.759179,sad
+'02-autumn_lightness.mp3       ',1.206434,133.44287,0.002249,46.124002,114.396976,sad
+'02-brand_new_love.mp3       ',1.692665,110.386486,0.002107,94.46716,102.239417,sad
+'02-desert_sunrise.mp3       ',2.077748,138.74903,0.003409,82.311543,129.45667,sad
+'02-every_grain_of_sand.mp3       ',1.838235,128.22969,0.001509,64.289954,103.70195,sad
+'02-it_sure_can_get_cold_in_des_moin.mp3       ',1.988072,126.258108,0.001763,82.933432,114.21475,sad
+'02-on_saturday_afternoons_in_1963.mp3       ',0.463623,143.475703,0.001211,32.287831,124.086465,sad
